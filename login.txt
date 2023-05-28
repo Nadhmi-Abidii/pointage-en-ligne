@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script src="https://kit.fontawesome.com/1760562266.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <form>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,300' rel='stylesheet' type='text/css'>
+    <div id="mainButton">
+        <div class="btn-text" onclick="openForm()">Login</div>
+        <div class="modal">
+            <br>
+            <img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoqjJD-5BTdxTpKZbXSd_Zsj6UAngbQ8LZBQ&usqp=CAU" alt="logo">
+            </br>
+            <div class="form-title">LOGIN TO DASHBOARD</div>
+            <div class="input-group">
+                <input type="text" id="name" onblur="checkInput(this)" />
+                <label for="name">Username</label>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" onblur="checkInput(this)" />
+                <label for="password">Password</label>
+            </div>
+            <input type="submit" value="Login" onclick="location.href ='index.html'">
+        </div>
+        <script src="./script.js"></script>
+    </form>
+</body>
+
+</html>
